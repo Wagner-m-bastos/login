@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    gap: 10px 39px;
+}
+    
+
+.bg {
+    width: 50%;
+    height: 100vh;
+    background-image: url("./cidade.jpg");
+    background-position: center;
+    background-size: cover; 
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}    
+
+.formulario input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}     
+
+
+
+.bem-vindo {
+    display: flex;
+    justify-content: center;
+}     
+
+
+button {
+    background-color: black;
+    color: aliceblue;
+    padding: 18px 18px ;
+    width: 300px;
+    height: 40px;
+    
+}    
+
+
+input {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    gap: 38px;
+    padding: 19px 10px;
+    width: 300px;
+}    
+ 
+.form {
+    display: flex;
+    justify-content: center;
+    
+}         
+.senha {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;    
+    
+}
+.lupa {
+    width: 21px; 
+    height: 18.13px;   
+    top: 1.43px;
+    gap: 0px;
+    
+}     
+
+ 
